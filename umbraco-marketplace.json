@@ -1,0 +1,31 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Category": "Backoffice Extensions",
+  "Title": "uTPro Text To Speech",
+  "Description": "Add a \"listen to this article\" player to any Umbraco 17 and 18 page with one ViewComponent line. Your template passes the text to read (so Block List and Block Grid pages work), and visitors get an accessible player with play/pause, speed, progress, resume and download. It is free and offline by default: the Browser voice needs no API key, no files and no outbound traffic. For consistent, higher-quality audio, map a culture to a server voice from the Piper or Kokoro add-on packages (fully local, including Vietnamese) or to any OpenAI-compatible speech API. Server audio is generated in the background - never inside the page render - cached on disk by content hash and reused, with a backoffice workspace to set a voice per culture, maintain pronunciation rules, and browse, play, regenerate or delete cached audio, plus an Audio content app on every page. The API endpoint is SSRF-guarded and only serves audio your templates registered. Cross-database (SQL Server, SQLite, PostgreSQL), Windows, Linux and Docker. Installs and uninstalls cleanly: the package self-wires its services, migration and backoffice UI, so no host Program.cs changes are needed.",
+  "AuthorDetails": {
+    "Name": "T4VN",
+    "Url": "https://t4vn.com",
+    "ImageUrl": "https://github.com/t4vn.png",
+    "SyncContributorsFromRepository": true
+  },
+  "LicenseTypes": [
+    "Free"
+  ],
+  "Tags": [
+    "text-to-speech",
+    "tts",
+    "audio",
+    "accessibility",
+    "voice",
+    "listen",
+    "piper",
+    "kokoro",
+    "openai",
+    "multi-language"
+  ],
+  "LookingForContributors": true,
+  "PackageType": "Package",
+  "DocumentationUrl": "https://docs.utpro.dev/uTPro.Feature.TextToSpeech/",
+  "IssueTrackerUrl": "https://github.com/T4VN/uTPro.Feature.TextToSpeech/issues"
+}
