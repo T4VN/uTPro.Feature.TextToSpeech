@@ -35,7 +35,7 @@ On the first start the package creates its tables with an idempotent Umbraco mig
 | `uTProTextToSpeechRule` | Pronunciation rules |
 | `uTProTextToSpeechVoice` | Voice mappings saved in the backoffice |
 
-Open **Settings â†’ Advanced Settings â†’ Text To Speech**. You should see the **Voices** tab with a Browser card marked *Ready* and an OpenAI-compatible card marked *Not configured*.
+Open **Settings → Advanced Settings → Text To Speech**. You should see the **Voices** tab with a Browser card marked *Ready* and an OpenAI-compatible card marked *Not configured*.
 
 ## 3. Add the player to a template
 
@@ -66,7 +66,7 @@ Server voices are generated once, cached, and sound the same for every visitor. 
 - **Offline, free:** install the [Piper or Kokoro add-on](offline-voices.md).
 - **AI API:** configure an [OpenAI-compatible endpoint](ai-api.md).
 
-Then map a culture to it in **Voices â†’ Add mapping**:
+Then map a culture to it in **Voices → Add mapping**:
 
 | Culture | Engine | Voice |
 |---|---|---|

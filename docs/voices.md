@@ -2,7 +2,7 @@
 
 # Voices and pronunciation
 
-Open **Settings â†’ Advanced Settings â†’ Text To Speech**. The workspace has three tabs: **Voices**, **Pronunciation** and **Audio cache**. They need Settings section access.
+Open **Settings → Advanced Settings → Text To Speech**. The workspace has three tabs: **Voices**, **Pronunciation** and **Audio cache**. They need Settings section access.
 
 ## Engines
 
@@ -54,9 +54,9 @@ The **Pronunciation** tab holds find-and-replace rules applied to the text befor
 |---|---|
 | Culture | `vi` (or `*` for all) |
 | Find | `TP.HCM` |
-| Say instead | `ThÃ nh phá»‘ Há»“ ChÃ­ Minh` |
+| Say instead | `Thành phố Hồ Chí Minh` |
 | Order | `10` (ascending) |
-| Regular expression | Off for plain text. On for patterns such as `\b(\d+)%` â†’ `$1 pháº§n trÄƒm` |
+| Regular expression | Off for plain text. On for patterns such as `\b(\d+)%` → `$1 phần trăm` |
 
 Plain rules are case-sensitive exact matches. Regular expressions run with a 250 ms timeout, and an invalid or slow pattern is skipped instead of breaking the page.
 

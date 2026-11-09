@@ -31,10 +31,10 @@ Put them in the default folders (or set `Piper:ExecutablePath` / `Piper:ModelsRo
 
 ```
 {ContentRoot}/umbraco/Data/uTProTextToSpeechPiper/
-â”œâ”€â”€ piper/                       # the extracted release (piper or piper.exe + espeak-ng-data, libs)
-â””â”€â”€ models/
-    â”œâ”€â”€ vi_VN-vais1000-medium.onnx
-    â””â”€â”€ vi_VN-vais1000-medium.onnx.json
+├── piper/                       # the extracted release (piper or piper.exe + espeak-ng-data, libs)
+└── models/
+    ├── vi_VN-vais1000-medium.onnx
+    └── vi_VN-vais1000-medium.onnx.json
 ```
 
 On Linux make the binary executable:
